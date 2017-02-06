@@ -1,0 +1,10 @@
+platform :ios, '7.0'
+platform :ios, '8.0'
+pod 'Masonry'
+pod 'SDWebImage', '~>3.8'
+pod 'YYKit'
+pod 'MJRefresh'
+pod 'MJExtension'
+target 'XQQMusic' do
+pod 'AFNetworking', '~> 3.0'
+end

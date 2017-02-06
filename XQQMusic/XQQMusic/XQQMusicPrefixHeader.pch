@@ -1,0 +1,28 @@
+//
+//  XQQMusicPrefixHeader.pch
+//  XQQMusic
+//
+//  Created by XQQ on 16/9/19.
+//  Copyright © 2016年 UIP. All rights reserved.
+//
+
+#ifndef XQQMusicPrefixHeader_pch
+#define XQQMusicPrefixHeader_pch
+
+
+#define iphoneWidth  [UIScreen mainScreen].bounds.size.width
+#define iphoneHeight [UIScreen mainScreen].bounds.size.height
+#define XQQColor(r,g,b,a)[UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:a]
+
+
+#import "UIImageView+WebCache.h"
+#import "MJRefresh.h"
+#import "MJExtension.h"
+#import "AFNetworking.h"
+#import "Masonry.h"
+#import "YYKit.h"
+#import "NSString+XQQTimeExtension.h"
+#import "CALayer+XQQPauseAimate.h"
+
+
+#endif /* XQQMusicPrefixHeader_pch */
